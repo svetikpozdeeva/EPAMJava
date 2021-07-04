@@ -12,6 +12,7 @@ public class Action {
     void addCustomerToShopList(SubjectCustomer customer) {
         customersList.add(customer);
     }
+
     List<SubjectCustomer> getListByName() {
         List<SubjectCustomer> list = new ArrayList<>(customersList);
         Collections.sort(list, new Comparator<SubjectCustomer>() {
